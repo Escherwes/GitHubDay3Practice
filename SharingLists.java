@@ -6,7 +6,7 @@ public class SharingLists{
 		for(int z = 0; z<4; z++){
 			abcd.add(0,x%10);
 			x/=10;
-			}
+		  }
 		    return abcd;
 	    }
 
@@ -46,4 +46,5 @@ public class SharingLists{
 		System.out.println(convertToArrayList(x));
 
  }
-}
+	}
+

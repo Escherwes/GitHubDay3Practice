@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 public class SharingLists{
 
+	public static ArrayList <Integer> convertToArrayList(int num){
+
+		ArrayList<Integer> abcd = new ArrayList<>();
+
+	}
+
 	public static int reconstructInteger(ArrayList<Integer> list){
 
 		int multiply = 1;
@@ -33,12 +39,9 @@ public class SharingLists{
 
 		System.out.println(reconstructInteger(list));
 
-	}
-	//Partner B's 1st Method:
-	ArrayList<Integer> abcd = new ArrayList<>();
-	public static ArrayList <Integer> convertToArrayList(int num){
-	}
+		int test = 9999;
 
+		System.out.println(convertToArrayList(test));
 
-}
+	}
 }
